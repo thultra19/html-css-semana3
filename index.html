@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+
+        <div id="bienvenida">👋 ¡Bienvenido a mi portafolio!</div>
+
+        <header>
+            <h1>Edward Barrios</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="mascotas.html">Mascotas</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p id="texto-dinamico">Soy estudiante de desarrollo de software, pianista y productor musical de la ciudad de Barranquilla, tengo 24 años </p>
+
+            <button id="btn-cambiar-texto">Saber más sobre mí</button>
+
+            <div id="info-extra">
+                🎹 También me apasiona la música electrónica y el sound design.
+                Trabajo con programas como Ableton Live, FL studio, Cubase entre otros y me encanta combinar código con creatividad.
+            </div>
+            <button id="btn-toggle" style="margin-top: 0.75rem;">Mostrar dato extra</button>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="grid-proyectos">
+                <div class="card"><a href="https://open.spotify.com/intl-es/artist/6Bxi54lMTCDZ2WQuKjgLCi">🎵 Mi proyecto musical</a></div>
+                <div class="card"><a href="https://github.com/thultra19?tab=repositories">💻 Mi repositorio de GitHub</a></div>
+                <div class="card"><a href="#">🎼 Servicio de transcripción musical</a></div>
+                <div class="card"><a href="#">🎛️ Taller de producción</a></div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo" required>
+                <input type="text" placeholder="¿Qué puedo hacer por ti?" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
